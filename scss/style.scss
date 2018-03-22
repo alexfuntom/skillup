@@ -1,0 +1,55 @@
+@import 'reset.scss';
+@import 'var.scss';
+*{
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family:'Roboto', sans-serif;
+}
+.price{
+height: 100vh;
+background: url(../img/bg.jpg);
+background-size: cover;
+}
+.container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+
+}
+.item_price{
+width: calc(33.3% - 25px);
+}
+.top_item_price{
+	height: 255px;
+	padding: 100px 0 0 80px;
+	background-color: white;
+}
+.top_item_price .label_price{
+	height: 24px;
+	font-size: 22px;
+	font-weight: 300px;
+	color: white;
+	letter-spacing: 0.02em;
+	text-align: center;
+	transform: translate(-50px, -20px) rotate(-30deg);
+
+}
+.price_alpha .label_price{
+	background-color: $color1;
+}
+.list{
+	padding-left: 50px;
+	margin-top: 50px;
+	list-style: none;
+	li{
+	position: relative;
+	padding-left: 20px;
+}
+}
+.list li{
+	position: relative;
+	padding-left: 20px;
+}
